@@ -1,0 +1,40 @@
+html {
+  background-color: #FF5910;
+  
+}
+
+header {
+    text-align: left;
+}
+
+body {
+  background-color: lightgrey;
+  text-align: left;
+  padding: 1%;
+}
+
+h1 {
+    color: #002D72;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: left;
+  color: #002D72;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+* {
+  font-family: sans-serif;
+}
+
+img {
+  width: 15%;
+  border-radius: 8px;
+  display: block;
+  margin: left;
+}
