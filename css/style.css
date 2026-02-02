@@ -57,20 +57,30 @@ img {
     margin-top: 10px;
 }
 
-#favorites { 
-  width: 25%;
-  background-color: black;
-  border: 1px solid white; 
-  color: white;
-  padding: 10px;
-  margin-top: 1%;
+#favorites {
+    width: 25%;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin-top: 1%;
 }
 
-#honorable { 
-  width: 25%; 
-  background-color: slategray; 
-  border: 1px solid black; 
-  color: white;
-  padding: 10px;
-  margin-top: 1%;
+#honorable {
+    width: 25%;
+    background-color: slategray;
+    border: 1px solid black;
+    color: white;
+    padding: 10px;
+    margin-top: 1%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.box {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
 }
