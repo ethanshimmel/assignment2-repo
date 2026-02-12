@@ -47,7 +47,7 @@ img {
 
 .button {
     background-color: #002D72;
-    color: #FF5910;
+    color: white;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -59,18 +59,18 @@ img {
 
 #favorites {
     width: 25%;
-    background-color: black;
+    background-color: #FFBA6B;
     border: 1px solid white;
-    color: white;
+    color: black;
     padding: 10px;
     margin-top: 1%;
 }
 
 #honorable {
     width: 25%;
-    background-color: slategray;
-    border: 1px solid black;
-    color: white;
+    background-color: #6BCEFF;
+    border: 1px solid #000000;
+    color: black;
     padding: 10px;
     margin-top: 1%;
 }
