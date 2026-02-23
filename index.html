@@ -4,60 +4,63 @@
     <!-- This displays the title -->
     <title>My Favorite NY Mets</title>
     <!-- CDN Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- Imports CSS to page -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- This is the heading of the page -->
-    <header>
-        <h1>The New York Mets</h1>
-        <p>This page is dedicated to my favorite players from the New York Mets all time.</p>
-    </header>
-    <!-- This is the main section -->
-    <main>
-        <article>
-            <!-- Headers and description -->
-            <h2>The New York Mets Best Players</h2>
-            <p>The New York Mets have many players to call your favorite, but here is my list of favorites with bias to
-                my
-                age.
-            </p>
-            <!-- Displays image of David Wright-->
-            <img src="images/davidwright.jpg" alt="An image of David Wright" width="10%">
-            <!-- Creates order list with best NY Mets players-->
-            <div class="flex-container">
-                <section id="favorites" class="box">
-                    <p class="subheader">My Favorite Players:</p>
-                    <ol>
-                        <li>David Wright</li>
-                        <li>Jacob DeGrom</li>
-                        <li>Jose Reyes</li>
-                        <li>Pete Alonso</li>
-                        <li>Brandon Nimmo</li>
-                    </ol>
-                </section>
-                <section id="honorable" class="box">
-                    <!-- Creates an unordered list of honorable mentions-->
-                    <p class="subheader">Honorable Mentions:</p>
-                    <ul>
-                        <li>Mike Piazza</li>
-                        <li>Pedro Martinez</li>
-                        <li>Carlos Beltran</li>
-                        <li>Carlos Delgado</li>
-                    </ul>
-                </section>
-            </div>
-        </article>
-        <!-- Navigation panel-->
-        <footer>
-            <nav>
-                <a class="button" href="page2.html">Read more on Page 2</a>
-            </nav>
-        </footer>
-    </main>
+    <div class="container mt-4">
+        <!-- This is the heading of the page -->
+        <header class="text-center mb-4">
+            <h1>The New York Mets</h1>
+            <p class="lead">This page is dedicated to my favorite players from the New York Mets all time.</p>
+        </header>
+        <!-- This is the main section -->
+        <main>
+            <article class="mb-4">
+                <!-- Headers and description -->
+                <h2>The New York Mets Best Players</h2>
+                <p>The New York Mets have many players to call your favorite, but here is my list of favorites with bias
+                    to
+                    my
+                    age.
+                </p>
+                <!-- Displays image of David Wright-->
+                <img src="images/davidwright.jpg" alt="An image of David Wright" width="10%">
+                <!-- Creates order list with best NY Mets players-->
+                <div class="flex-container">
+                    <section id="favorites" class="box">
+                        <p class="subheader">My Favorite Players:</p>
+                        <ol>
+                            <li>David Wright</li>
+                            <li>Jacob DeGrom</li>
+                            <li>Jose Reyes</li>
+                            <li>Pete Alonso</li>
+                            <li>Brandon Nimmo</li>
+                        </ol>
+                    </section>
+                    <section id="honorable" class="box">
+                        <!-- Creates an unordered list of honorable mentions-->
+                        <p class="subheader">Honorable Mentions:</p>
+                        <ul>
+                            <li>Mike Piazza</li>
+                            <li>Pedro Martinez</li>
+                            <li>Carlos Beltran</li>
+                            <li>Carlos Delgado</li>
+                        </ul>
+                    </section>
+                </div>
+            </article>
+            <!-- Navigation panel-->
+            <footer>
+                <nav>
+                    <a class="button" href="page2.html">Read more on Page 2</a>
+                </nav>
+            </footer>
+        </main>
+    </div>
 </body>
 
 </html>
